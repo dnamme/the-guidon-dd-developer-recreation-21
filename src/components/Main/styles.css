@@ -1,0 +1,10 @@
+.cluster-name {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.staffs-wrapper {
+  display: flex;
+  padding: 0 10%;
+}
