@@ -10,8 +10,8 @@ function Header() {
       <div id="content">
         <img src={logo} alt="The GUIDON logo" />
         <h1>Hold the Truth to Power.</h1>
-        <h2>COA RECWEEK 2021</h2>
-        <h2>SEPTEMBER 6-18</h2>
+        <h3>COA RECWEEK 2021</h3>
+        <h3>SEPTEMBER 6-18</h3>
       </div>
     </header>
   );
