@@ -1,0 +1,25 @@
+.cluster-name {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.staffs-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 32px;
+  padding: 0 10%;
+}
+
+@media screen and (max-width: 900px) {
+  .staffs-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .staffs-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
