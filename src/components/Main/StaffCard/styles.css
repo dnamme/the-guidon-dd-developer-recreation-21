@@ -1,6 +1,5 @@
 .staff-card {
-  flex: 1 0 0;
-  margin: 8px;
+  /* flex: 1 0 0; */
   padding: 24px;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
