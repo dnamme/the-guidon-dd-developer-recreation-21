@@ -1,6 +1,6 @@
 header {
   width: 100vw;
-  height: 396px;
+  min-height: 396px;
   color: white;
   position: relative;
 }
@@ -22,11 +22,12 @@ header {
 }
 
 #content {
-  margin: 0 300px;
+  margin: 0 20%;
 }
 
 #content img {
-  width: 100px;
+  width: 100%;
+  max-width: 100px;
 }
 
 #content h1 {
@@ -37,4 +38,16 @@ header {
 #content h3 {
   margin: 0;
   font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  #content {
+    margin: 0 15%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #content {
+    margin: 0 10%;
+  }
 }
