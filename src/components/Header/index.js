@@ -10,11 +10,14 @@ function Header() {
     const timer = setTimeout(() => {
       let images = document.getElementsByClassName("header-img");
 
-      images[imgIdx].classList.toggle("faded");
       images[imgIdx + 1 >= 5 ? 0 : imgIdx + 1].classList.toggle("faded");
 
-      let newImgIdx = imgIdx + 1;
-      setImgIdx(newImgIdx < 5 ? newImgIdx : 0);
+      setTimeout(() => {
+        images[imgIdx].classList.toggle("faded");
+
+        let newImgIdx = imgIdx + 1;
+        setImgIdx(newImgIdx < 5 ? newImgIdx : 0);
+      }, 1000);
     }, 5000);
 
     return () => clearInterval(timer);
